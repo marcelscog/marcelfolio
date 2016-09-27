@@ -63,7 +63,6 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 1px 2px 3px #333;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'Source Code Pro', monospace;
@@ -96,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #13991F; }
+header .social li a:hover { color: blue; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -149,7 +148,7 @@ header .scrolldown a:hover { color: #fff; }
 ul#nav {
    min-height: 48px;
    width: auto;
-   background-color: #13991F;
+   background-color: blue;
 
    /* center align the menu */
    text-align: center;
@@ -196,11 +195,11 @@ ul#nav li.current a { color: #black; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #13991F; }
+#about a:hover, #about a:focus { color: blue; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #13991F;
+   color: blue;
    margin-bottom: 12px;
 }
 #about p {
@@ -244,7 +243,7 @@ ul#nav li.current a { color: #black; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #13991F; }
+#resume a, #resume a:visited  { color: blue; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -253,7 +252,7 @@ ul#nav li.current a { color: #black; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #13991F;
+   border-bottom: 3px solid blue;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -320,7 +319,7 @@ ul#nav li.current a { color: #black; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #13991F;
+  	background: blue;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -797,7 +796,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #13991F; }
+#contact a, #contact a:visited  { color: blue; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -858,7 +857,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #13991F;
+	background-color: blue;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -877,7 +876,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #13991F;
+	color: blue;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -889,7 +888,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #13991F; }
+#message-success { color: blue; }
 
 #message-warning i,
 #message-success i {
@@ -956,7 +955,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #13991F;
+    color: blue;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -973,7 +972,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #13991F;
+    color: blue;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1004,4 +1003,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #13991F; }
+#go-top a:hover { background-color: blue; }
